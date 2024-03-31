@@ -27,5 +27,65 @@
 <h3>Perfil</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum est eaque nemo. Maiores distinctio fugiat nesciunt voluptatem natus. Quas, omnis explicabo repellendus laudantium earum dolor dolores dolorem. Quae, placeat natus?</p>
 <h4>Si querés contactarme, podés completar el siguiente <a href="https://www.facebook.com/cris.travesaro/" target="_blank">formulario</a></h4>
+<form action="" method="">
+    <p>
+        <label for="nom">Nombre</label>
+        <input type="text"> name="nombre" />
+    </p>
+    <p>
+        <input type="text" name="apellido" placeholder="apellido" />
+    </p>
+    <p>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" />
+    </p>
+        <label for="sexo">Sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="hombre">
+                <label for="Hombre"></label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" value="mujer">
+                <label for="Mujer"></label>
+            </li>
+        </ul>
+        <label for="Hobbies"></label>
+        <ul>
+            <li>
+                <input type="checkbox" name="hobbies" value="bailar" id="bailar" />
+                <label for="bailar">Bailar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies" value="cantar" id="cantar" />
+                <label for="cantar">Cantar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies" value="nadar" id="nadar" />
+                <label for="nadar">Nadar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies" value="correr" id="correr" />
+                <label for="correr">Correr</label>
+            </li>
+        </ul>
+        <p>
+            <label for="title">Titulo</label>
+            <select name="title"> 
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="Comentario"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+        </p>
+</form>
 </body>
 </html>
